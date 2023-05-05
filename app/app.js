@@ -39,7 +39,7 @@ app.use("/auth", passport.authenticate("auth-google",{
 
 app.use("/", routeHome);
 app.use("/", route);
-app.use("/dashboard", dash);
+app.use("/v1", dash);
 
 // app.get("/", (req, res) => {
 //     res.send("HOlA BIENVENIDO");

@@ -20,7 +20,7 @@ loginRouter.get("/google", (req, res) => {
 
     res.cookie("ckar", token);
 
-    res.redirect("/dashboard/inicio");
+    res.redirect("/v1/inicio");
 
     // res.render("backoffice",{nombre:name});
 });
